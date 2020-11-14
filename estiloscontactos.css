@@ -1,0 +1,67 @@
+* {margin: 2%;}
+
+body{
+  font-family: "CASTELAR";
+   background-color: orange;
+
+}
+form{
+  width: 50%;
+  border: 3px solid:black;
+  margin: 10px;
+  padding: 2%;
+  background-color: yellow;
+}
+label{
+  display: block;
+}
+input{
+  width: 90%;
+}
+header{
+  background-color: beige;
+}
+header img{float: inherit;
+  border-radius: 50%}
+nav{
+  background-color: purple;
+}
+nav ul li{display: inline-block;
+background-color: violet;
+padding: 30px;
+border-radius: 20%;}
+
+nav ul li a:link{
+  text-decoration:none;
+}
+a:link{background-color: white;
+}
+a:visited{
+  background-color: white;
+}
+a:hover{
+  background-color: yellow;
+}
+a:active{
+  background-color: beige;
+}
+
+section{
+  background-color: red;
+  background-image: url(torta.jpg);
+  background-repeat: round;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
+footer{
+  background-color: olive;
+  float:center;
+  clear: both;
+  text-align: center;
+}
+footer ul li{display: inline-block;
+background-color: olive;
+padding: 30px;
+border-radius: 20%;}
+
+footer::after{content: "Página diseñada por Ileana Vanesa Mamani"}
